@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!---<div id="app"></div>--->
+    <header> 
+     <div class="container">
+      
+        <nav class="primary-navigation">
+          <img class="logo" src="imajes/logo.svg" style="width: 48px;
+        height: 48px; display:inline;"/>
+        <button id="nav-toggler" class="nav-toggler"></button>
+        
+         <ul role="list" class="nav-list fs-nav" id="nav-list" >
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Team</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+      
+     </div>
+    </header>
+    <main>
+      
+            <section class="padding-block-700">
+              <div class="container">
+                 <div class="content ">
+                 <div class="content-left">
+                    <img src="imajes/Doctor-1.jpg" class="team-img">
+                 </div>
+                 <div class="content-right">
+                    
+                        <div class="flow">
+                        <h2 class="fs-secondary-heading fw-semibold  text-accent-400  ">Comprehensive health check-up for men</h2>
+                        <hr class="line">
+                       </div>
+                    <div class="content-details">
+                   <p>The Health checkup package for men has been designed to offer
+                     a comprehensive range of tests to detect diseases early so 
+                     that they can be treated and cured leading to a healthy life.</p>
+                    </div>
+              
+            </div> 
+            </div>  
+                    
+                 <div class="content-details">
+                    <h3 class="fs-400 fw-semibold  text-accent-400">The Package includes:</h3>
+                    <ul>
+                        <li>Nutrition / Diet Consultation</li>
+<li>Consultation with Cardiologist</li>
+<li>Vision Test</li>
+                        <li>ECG</li>
+                        <li>TMT (Treadmill Test)</li>
+                        <li>Chest X-ray</li>
+                        <li>Ultrasound – Whole Abdomen</li>
+                        <li>Final Doctor Visit for Evaluation</li>
+
+
+
+</ul>
+</div>
+</div>
+
+                
+                 
+                
+                
+                </section>
+    </main>
+    <style>
+        .line{
+            margin-left:20px ;
+        }
+        .content{
+            display:grid;
+            grid-auto-flow:column;
+             grid-auto-columns: 1fr 1fr;
+            gap:1rem;
+            margin-top: 3em;
+            margin-bottom: 4em;
+        }
+        .content-details{
+            margin-bottom: 5em;
+        }
+        
+        .content-details ul li{
+            margin-bottom: 1em;
+            margin-left: 2.5em;
+        }
+    </style>
+    </body>
+</html>

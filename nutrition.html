@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!---<div id="app"></div>--->
+    <header> 
+     <div class="container">
+      
+        <nav class="primary-navigation">
+          <img class="logo" src="imajes/logo.svg" style="width: 48px;
+        height: 48px; display:inline;"/>
+        <button id="nav-toggler" class="nav-toggler"></button>
+        
+         <ul role="list" class="nav-list fs-nav" id="nav-list" >
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Team</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+      
+     </div>
+    </header>
+    <main>
+      
+            <section class="padding-block-700">
+              <div class="container">
+                 <div class="content ">
+                 <div class="content-left">
+                    <img src="imajes/Doctor-1.jpg" class="team-img">
+                 </div>
+                 <div class="content-right">
+                    
+                        <div class="flow">
+                        <h2 class="fs-secondary-heading fw-semibold  text-accent-400  ">Nutritional Assessment Package</h2>
+                        <hr class="line">
+                       </div>
+                    <div class="content-details">
+                   <p>Our expert-led nutritional assessment is a personalised 
+                    approach to healthcare that helps prevent or treat 
+                    nutrition-related illnesses and diseases, including diabetes, 
+                    cardiovascular disease and cancer. A nutritional assessment 
+                    can highlight any shortfalls in your diet, as well as suggest
+                     positive changes in your lifestyle choices. </p>
+                     <button class="button">Book an appointment</button>
+                    </div>
+              
+            </div> 
+            </div>  
+                    
+                 <div class="content-details">
+                    <h3 class="fs-500 fw-semibold  text-accent-400">What is included?</h3>
+                    <div class="included-service">
+                     <div>   
+                    <h4 class="fs-400 fw-semibold text-accent-400">Measurements</h4>
+                    <p>These simple measures provide insight into your bodyweight
+                         category and how your body distributes fat to assess your
+                          risk of diseases such as cardiovascular, cancer and 
+                          diabetes.</p>
+                        </div>
+
+   <div>                
+<h4 class="fs-400 fw-semibold">Blood tests</h4>
+<p>Carefully selected blood tests will give insight into how you metabolise 
+    glucose and fatty acids, and give an idea about your nutrient intake and 
+    nutritional status.</p>
+    </div>
+    <div>
+<h4 class="fs-400 fw-semibold">Nutrient analysis</h4>
+<p>Analysis of a 5-day food diary provides an accurate assessment of your 
+    nutritional intake. Inadequate or excessive nutrient intake can affect the
+     risk of long-term health issues.</p>
+    </div>
+    <div>
+     <h4 class="fs-400 fw-semibold">Lifestyle</h4>
+     <p>Getting a picture of various aspects of your lifestyle including daily 
+        routine, sleep and physical activity helps to assess their influence on
+         your health and well-being.</p>
+        </div>
+        <div>
+     <h4 class="fs-400 fw-semibold">Consultation</h4>
+     <p>During your consultation, we will discuss your medical history, any 
+        symptoms, medications and other relevant information to support a holistic
+         view of your nutritional health.</p>
+         </div>
+        </div>
+
+</div>
+</div>
+
+                
+                 
+                
+                
+                </section>
+    </main>
+    <style>
+        .line{
+            margin-left:20px ;
+        }
+        .content{
+            display:grid;
+            grid-auto-flow:column;
+             grid-auto-columns: 1fr 1fr;
+            gap:1rem;
+            margin-top: 3em;
+            margin-bottom: 4em;
+        }
+        .content-details{
+            margin-bottom: 5em;
+        }
+        
+        .content-details ul li{
+            margin-bottom: 1em;
+            margin-left: 2.5em;
+        }
+        .content-details h4{
+            margin-bottom: 1.5em;
+            margin-left: 0.5em;
+            margin-top: 1em;
+        }
+        .included-service{
+            display: flex;
+            flex-wrap: wrap;
+            gap:3em;
+            
+            
+        }
+        .included-service div{
+            width: 250px;
+           
+        }
+    </style>
+    </body>
+</html>

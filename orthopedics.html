@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!---<div id="app"></div>--->
+    <header> 
+     <div class="container">
+      
+        <nav class="primary-navigation">
+          <img class="logo" src="imajes/logo.svg" style="width: 48px;
+        height: 48px; display:inline;"/>
+        <button id="nav-toggler" class="nav-toggler"></button>
+        
+         <ul role="list" class="nav-list fs-nav" id="nav-list" >
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Team</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+      
+     </div>
+    </header>
+    <main>
+      <section class="padding-block-700">
+        <div class="container-main">
+            <img class="landing-image" src="imajes/landing-image.png" style="margin: auto;"/>
+            </div>
+            </section>
+            <section class="padding-block-700">
+                <div class="container">
+                  <div class="flow">
+                  <h2 class="fs-secondary-heading fw-semibold  text-accent-400  ">Orthopedics</h2>
+                  <hr class="line">
+                 </div>
+                 <div class="content ">
+                 <div class="content-left">
+                    <img src="imajes/Doctor-1.jpg" class="team-img">
+                 </div>
+                 <div class="content-right">
+                    <div class="content-details">
+                   <p>The Orthopaedic unit is equipped with the state-of-the-art equipment and procedures for comprehensive care for musculoskeletal conditions of all ages.
+                     Our orthopedic surgeons use the latest approaches and minimally invasive techniques
+                      to provide the highest quality of care and the fastest return to active life.
+                       We offers advanced procedures in various fields.</p>
+                 </div>
+                 <div class="content-details">
+                    <h3 class="fs-400 fw-semibold  text-accent-400">The services offered include:</h3>
+                    <ul>
+                        <li>Spine and Back Care</li>
+<li>Preservation Care</li>
+<li>Foot and Ankle Surgery Services</li>
+                        <li>Cartilage Restoration Services</li>
+<li>Limb Preservation Services</li>
+<li>Joint Replacement Services</li>
+
+</ul>
+</div>
+<div class="content-details">
+<h3 class="fs-400 fw-semibold  text-accent-400">Rehabilitation</h3>
+<ul>
+<li>Stroke & Neuro-Rehabilitation</li>
+<li>Balance & Vertigo Rehabilitation</li>
+<li>Facial Paralysis & Muscular Weakness</li>
+<li>Cerebral Palsy Rehabilitation</li>
+<li>Cardio-thoracic Rehabilitation</li>
+<li>Sports Medicine, Sport Injuries and Arthroscopic Procedures of Shoulder, 
+Knee, Elbow and Ankle Joints</li>
+</ul>
+                    
+                 </div>
+                 <div class="content-details">
+                    <h3 class="fs-400 fw-semibold  text-accent-400">When to Make an Appointment at the Orthopaedics Center</h3>
+                    <ul>
+                        <li>Chronic joint pain</li>
+                        <li>Instability walking or standing</li>
+                        <li>Pain in that starts in the low back and runs down one or both legs</li>
+                        <li>Limited range of motion</li>
+                        <li>Difficulty performing daily activities</li>
+                        
+                    </ul>
+                 </div>
+                 </div>
+                </div>
+                </div>
+                </section>
+    </main>
+    <style>
+        .line{
+            margin-left:20px ;
+        }
+        .content{
+            display:grid;
+            grid-auto-flow:column;
+             grid-auto-columns: 1fr 2fr;
+            gap:1rem;
+        }
+        .content-details{
+            margin-bottom: 5em;
+        }
+        .content-details ul li{
+            margin-bottom: 1em;
+            margin-left: 1.5em;
+        }
+    </style>
+    </body>
+</html>

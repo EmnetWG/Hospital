@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!---<div id="app"></div>--->
+    <header> 
+     <div class="container">
+      
+        <nav class="primary-navigation">
+          <img class="logo" src="imajes/logo.svg" style="width: 48px;
+        height: 48px; display:inline;"/>
+        <button id="nav-toggler" class="nav-toggler"></button>
+        
+         <ul role="list" class="nav-list fs-nav" id="nav-list" >
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Team</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+      
+     </div>
+    </header>
+    <main>
+      <section class="padding-block-700">
+        <div class="container-main">
+            <img class="landing-image" src="imajes/landing-image.png" style="margin: auto;"/>
+            </div>
+            </section>
+            <section class="padding-block-700">
+                <div class="container">
+                  <div class="flow">
+                  <h2 class="fs-secondary-heading fw-semibold  text-accent-400  ">Pharmacy</h2>
+                  <hr class="line">
+                 </div>
+                 <div class="content ">
+                 <div class="content-left">
+                    <img src="imajes/Doctor-1.jpg" class="team-img">
+                 </div>
+                 <div class="content-right">
+                    <div class="content-details">
+                   <p>The pharmacy department can meet all medication needs, from prescriptions to 
+                    over-the-counter medications for in-patient and out-patient. More than 6000 
+                    pharmaceutical products from various multinational companies available at the
+                     pharmacies. A wide variety of  
+                     medical equipments, rehabilitation products, diagnostic products, lab 
+                     apparatus from world renowned brands and manufacturers are also made available to the customer.</p>
+                    </div>
+                    <div class="content-details">
+                     <p>Clinical pharmacy teams, consisting of pharmacists and pharmacy technicians,
+                         provide advice to those prescribing medicines throughout the hospital to 
+                         ensure that patients receive the best quality treatment for their care.
+                         This key role, known as medicines management, begins with 
+                    coordinating the way in which medicines are selected, purchased and delivered
+                     to the hospital. 
+                    </p>
+                    </div>
+                    
+                 <div class="content-details">
+                    <h3 class="fs-400 fw-semibold  text-accent-400">Opening hours</h3>
+                    <ul style="list-style-type:none">
+                        <li>Open for Outpatient:</li>
+<li>Monday – Friday: 9.00 – 17.30</li>
+<li>Saturday: 9.30 – 16.30</li>
+                        <li>Sunday: 9.30 – 16.30</li>
+
+
+
+</ul>
+</div>
+
+                
+                 </div>
+                </div>
+                </div>
+                </section>
+    </main>
+    <style>
+        .line{
+            margin-left:20px ;
+        }
+        .content{
+            display:grid;
+            grid-auto-flow:column;
+             grid-auto-columns: 1fr 2fr;
+            gap:1rem;
+        }
+        .content-details{
+            margin-bottom: 3em;
+        }
+        .content-details ul li{
+            margin-bottom: 1em;
+            margin-left: 1.5em;
+        }
+    </style>
+    </body>
+</html>

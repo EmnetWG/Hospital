@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <!---<div id="app"></div>--->
+    <header> 
+     <div class="container">
+      
+        <nav class="primary-navigation">
+          <img class="logo" src="imajes/logo.svg" style="width: 48px;
+        height: 48px; display:inline;"/>
+        <button id="nav-toggler" class="nav-toggler"></button>
+        
+         <ul role="list" class="nav-list fs-nav" id="nav-list" >
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Team</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+      
+     </div>
+    </header>
+    <main>
+      <section class="padding-block-700">
+        <div class="container-main">
+            <img class="landing-image" src="imajes/landing-image.png" style="margin: auto;"/>
+            </div>
+            </section>
+            <section class="padding-block-700">
+                <div class="container">
+                  <div class="flow">
+                  <h2 class="fs-secondary-heading fw-semibold  text-accent-400  ">Clinical Laboratory</h2>
+                  <hr class="line">
+                 </div>
+                 <div class="content ">
+                 <div class="content-left">
+                    <img src="imajes/Doctor-1.jpg" class="team-img">
+                 </div>
+                 <div class="content-right">
+                    <div class="content-details">
+                   <p>The laboratory unit is fully equipped with the latest technologies
+                     to perform the most advanced and complicated tests and screening. It
+                      is a full-service laboratory performing clinical analysis on blood,
+                       tissue and other body fluids.
+                       </p>
+                 </div>
+                 <div class="content-details">
+                    <h3 class="fs-400 fw-semibold  text-accent-400">The services offered include:</h3>
+                    <ul>
+                        <li>Bacteriology</li>
+<li>Urinalysis</li>
+<li>Hematology</li>
+                        <li>Transfusion services</li>
+<li>Chemistry</li>
+<li>Immunology</li>
+<li>Coagulation</li>
+<li>Toxicology</li>
+<li>Blood gases</li>
+<li>Pathology services include cytology and histology procedures</li>
+
+</ul>
+</div>
+
+                
+                 </div>
+                </div>
+                </div>
+                </section>
+    </main>
+    <style>
+        .line{
+            margin-left:20px ;
+        }
+        .content{
+            display:grid;
+            grid-auto-flow:column;
+             grid-auto-columns: 1fr 2fr;
+            gap:1rem;
+        }
+        .content-details{
+            margin-bottom: 3em;
+        }
+        .content-details ul li{
+            margin-bottom: 1em;
+            margin-left: 1.5em;
+        }
+    </style>
+    </body>
+</html>
